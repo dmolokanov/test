@@ -3,7 +3,8 @@ mod tests {
     #[test]
     fn it_works() {
         let a = super::A::new(3);
-        let mut b = a;
+        let mut b = 3;
+        b += a.b;
 
         assert_eq!(2 + 2, 4);
     }
