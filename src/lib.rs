@@ -37,3 +37,7 @@ pub enum B {
 pub struct Gen<'a, T> {
     t: &'a T,
 }
+
+fn main() {
+    println!("main")
+}
