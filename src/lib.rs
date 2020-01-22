@@ -39,5 +39,5 @@ pub struct Gen<'a, T> {
 }
 
 fn main() {
-    println!("main")
+    println!("work")
 }
